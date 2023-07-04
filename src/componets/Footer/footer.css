@@ -1,0 +1,26 @@
+.footer_container p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+.footer_container_social {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+.footer_icon {
+  margin: 10px;
+}
+.footer_icon:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+@media screen and (max-device-width: 480px) {
+  .footer_container p {
+    font-size: 2rem;
+  }
+}

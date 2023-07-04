@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Special+Elite&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700;1,800&display=swap');
+</style>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,19 @@
+.product_card_container {
+  background-color: white;
+  border-radius: 18px;
+  border: 2px solid #f7bcbc;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(189, 189, 189, 0.2);
+  overflow: hidden;
+}
+.product_card_container img {
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.product_card_container img:hover {
+  transform: scale(1.15);
+  transition: 0.7s;
+}
