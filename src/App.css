@@ -27,7 +27,7 @@
 @media screen and (max-device-width: 480px) {
   .to_top_Button {
     border-radius: 100px;
-    width: 50px;
+    width: 80px;
     display: flex;
     position: absolute;
     bottom: 20px;
