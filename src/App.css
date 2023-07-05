@@ -7,6 +7,38 @@
   margin: 0.8% 8%;
   margin-top: 20px;
 }
-/* .main_home {
-  height: 100vh;
-} */
+.to_top_Button {
+  border-radius: 100px;
+  width: 80px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  height: 80px;
+  background-color: #ef7e7e;
+}
+
+@media screen and (max-device-width: 480px) {
+  .to_top_Button {
+    border-radius: 100px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 80px;
+    background-color: #ef7e7e;
+  }
+}

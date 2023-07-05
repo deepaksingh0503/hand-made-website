@@ -17,3 +17,13 @@
   transform: scale(1.15);
   transition: 0.7s;
 }
+
+@media screen and (max-device-width: 480px) {
+  .product_card_container img {
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+}

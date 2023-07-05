@@ -23,4 +23,10 @@
   .footer_container p {
     font-size: 2rem;
   }
+  .footer_icon {
+    transform: scale(0.7);
+  }
+  .footer_container_social {
+    padding: 10px;
+  }
 }

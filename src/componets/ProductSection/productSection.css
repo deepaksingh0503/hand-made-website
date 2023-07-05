@@ -14,10 +14,16 @@
 }
 .product_section_heading p {
   font-size: 3rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  justify-content: center;
   font-weight: 500;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   text-align: center;
 }
+
 .product_section_button {
   background-color: #000918;
   color: #f8a6a6;
@@ -36,6 +42,11 @@
 }
 @media screen and (max-device-width: 480px) {
   .product_section_heading p {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .product_section_icon {
+    transform: scale(0.7);
   }
 }

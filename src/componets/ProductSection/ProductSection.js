@@ -12,13 +12,13 @@ import {
   product7,
 } from "../../assets";
 import ProductCard from "../ProductCard/ProductCard";
-export default function ProductSection() {
+export default function ProductSection(props) {
   return (
     <>
-      <div className='product_section_container'>
+      <div className='product_section_container' ref={props.reference}>
         <div className='product_section_heading'>
           <p>
-            Product Gallary <BsImageFill color='ef7e7e' size={40} />{" "}
+            Product Gallary <BsImageFill className="product_section_icon" color='ef7e7e' size={40} />{" "}
           </p>
         </div>
         <div className='product_section_flex'>

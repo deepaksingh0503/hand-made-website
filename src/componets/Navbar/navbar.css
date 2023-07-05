@@ -21,7 +21,8 @@
   width: 300px;
   align-items: center;
   /* align-content:space-around; */
-  justify-content: space-around;
+  gap: 19px;
+  /* justify-content: space-around; */
 }
 .navbar_container_links a {
   text-decoration: none;

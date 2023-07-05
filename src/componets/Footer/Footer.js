@@ -3,7 +3,6 @@ import "./footer.css";
 
 import {
   FaInstagram,
-  FaFacebookSquare,
   FaFacebook,
   FaPhoneAlt,
   FaYoutube,
@@ -11,10 +10,11 @@ import {
 } from "react-icons/fa";
 
 import { FiMail } from "react-icons/fi";
-export const Footer = () => {
+export const Footer = (props) => {
+  // const { reference } = props.reference;
   return (
     <>
-      <div className='footer_container'>
+      <div className='footer_container' ref={props.reference}>
         <p>
           Contact and Social's <FaUserFriends size={40} color='ef7e7e' />
         </p>
