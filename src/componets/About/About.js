@@ -11,7 +11,11 @@ export const About = (props) => {
       <div className='about_container' ref={props.reference}>
         <h2>
           About Me!
-          <FaHandHoldingHeart className="about_container_icon" color='#ef7e7e' size={50} />
+          <FaHandHoldingHeart
+            className='about_container_icon'
+            color='#ef7e7e'
+            size={50}
+          />
         </h2>
         <div className='about_container_section'>
           <div className='about_container_image_section'>
@@ -20,8 +24,8 @@ export const About = (props) => {
           <div className='about_container_text_section'>
             <p>
               <BiSolidQuoteAltLeft color='ef7e7e' /> Welcome to my website! 😊
-              I'm Mayank Ladnge, an 18-year-old school student from Raipur. ✨ I
-              have a passion for creating handmade gifts that bring joy to
+              I'm Mayank Nadange, an 18-year-old school student from Raipur. ✨
+              I have a passion for creating handmade gifts that bring joy to
               others. 🎁 Crafting makes me happy, especially when I see the
               happiness it brings to others. Each item I make, whether it's a
               bracelet, photo frame, or gift basket, is crafted with love and

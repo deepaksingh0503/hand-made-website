@@ -19,32 +19,42 @@ export const Footer = (props) => {
           Contact and Social's <FaUserFriends size={40} color='ef7e7e' />
         </p>
         <div className='footer_container_social'>
-          <FaInstagram
-            className='footer_instagram_icon footer_icon'
-            size={50}
-            color='ef7e7e'
-          />
+          <a href='https://instagram.com/__.mayank.__29/' target='_blank'>
+            <FaInstagram
+              className='footer_instagram_icon footer_icon'
+              size={50}
+              color='ef7e7e'
+            />
+          </a>
 
-          <FaFacebook
-            className='footer_facebook_icon footer_icon'
-            size={50}
-            color='ef7e7e'
-          />
-          <FaPhoneAlt
-            className='footer_phone_icon footer_icon'
-            size={50}
-            color='ef7e7e'
-          />
-          <FaYoutube
-            className='footer_youtube_icon footer_icon'
-            size={50}
-            color='ef7e7e'
-          />
-          <FiMail
-            className='footer_mail_icon footer_icon'
-            size={50}
-            color='ef7e7e'
-          />
+          <a href='#' target='_blank'>
+            <FaFacebook
+              className='footer_facebook_icon footer_icon'
+              size={50}
+              color='ef7e7e'
+            />
+          </a>
+          <a href='#' target='_blank'>
+            <FaPhoneAlt
+              className='footer_phone_icon footer_icon'
+              size={50}
+              color='ef7e7e'
+            />
+          </a>
+          <a href='#' target='_blank'>
+            <FaYoutube
+              className='footer_youtube_icon footer_icon'
+              size={50}
+              color='ef7e7e'
+            />
+          </a>
+          <a href='#' target='_blank'>
+            <FiMail
+              className='footer_mail_icon footer_icon'
+              size={50}
+              color='ef7e7e'
+            />
+          </a>
         </div>
       </div>
     </>

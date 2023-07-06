@@ -21,35 +21,38 @@ export const Testimonial = (props) => {
           />
           <TestimonialCard
             color={"#c3ccf3"}
-            name={"Vivek Something"}
+            name={"Vivek Yadav"}
             content={
               "The handmade bracelet I received as a gift was not only beautiful but also perfectly suited to my style. The quality and uniqueness exceeded my expectations!"
             }
           />
           <TestimonialCard
             color={"#ffb9b9"}
-            name={"Somuya something"}
+            name={"Saumya Verma"}
             content={
               "The gift basket I purchased was a hit! It was beautifully arranged with a great selection of goodies. The recipient was thrilled! Thank you!"
             }
+           
           />
+           </div>
+            <div className='testimonial_inner_container'>
           <TestimonialCard
             color={"#ffb9b9"}
-            name={"Random "}
+            name={"Prakash Sahu "}
             content={
               "I ordered a customized gift basket for my best friend's birthday, and it was a huge success. The personal touch and thoughtfulness made it truly special."
             }
           />
           <TestimonialCard
             color={"#55c3fe"}
-            name={"Classmate"}
+            name={"Riya Sharma"}
             content={
               "I received a handmade bracelet as a present, and I couldn't be happier with it. The design and craftsmanship are top-notch. I wear it every day!"
             }
           />
           <TestimonialCard
             color={"#ff9686"}
-            name={"Mayank ladle"}
+            name={"Vandana Jaiswani"}
             content={
               "The custom photo frame I ordered for my parents' anniversary was a sentimental masterpiece. They were touched by the personalized touch and quality of the frame."
             }
